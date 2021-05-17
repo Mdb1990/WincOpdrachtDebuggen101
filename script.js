@@ -17,7 +17,7 @@ for (let person of array) {
   // console.log("aangenaam ik sta in jou array:", [person.name]);
   // console.log([person.name], "is geboren in", birthYear - [person.age]);
   // console.log([person.name], "is van beroep", [person.profession]);
-  if ([person.age] > 50) {
-    console.log([person.name], "is ouder dan 50");
+  if (person.age > 50) {
+    console.log(person.name + " is ouder dan 50");
   }
 }
